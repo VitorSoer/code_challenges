@@ -22,5 +22,3 @@ const past = (hours, minutes, seconds) => {
     millisecondsPerHour + millisecondsPerMinute + millisecondsPerTimeSecond
   );
 };
-
-console.log(past(0, 1, 1));
